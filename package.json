@@ -1,0 +1,30 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "Production-Style TypeScript implementation of a rate limiter using",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praneetbahadur24/rate-limiter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praneetbahadur24/rate-limiter/issues"
+  },
+  "homepage": "https://github.com/praneetbahadur24/rate-limiter#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
