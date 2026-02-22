@@ -1,6 +1,6 @@
 import express from "express";
-import { FixedWindowRateLimitter } from "./rateLimitter/FixedWindowRateLimitter";
-import { RateLimiterMiddleware } from "./rateLimitter/RateLimiterMiddleware";
+import { FixedWindowRateLimitter } from "./rateLimiter/FixedWindowRateLimitter";
+import { RateLimiterMiddleware } from "./rateLimiter/RateLimiterMiddleware";
 
 const app = express();
 
